@@ -56,7 +56,7 @@ HARD_ZACH_BRYAN_SONGS = [
 ]
 
 
-def run_quiz():
+def run_zach_quiz():
     while True:
         score = 0
         total_questions = min(5, len(HARD_ZACH_BRYAN_SONGS))
@@ -116,4 +116,4 @@ def run_quiz():
 
 
 if __name__ == "__main__":
-    run_quiz()
+    run_zach_quiz()

@@ -80,7 +80,7 @@ ALL_TAYLOR_SONGS = [
     }
 ]
 
-def run_quiz():
+def run_taylor_quiz():
     while True:
         score = 0
         total_questions = min(5, len(ALL_TAYLOR_SONGS))

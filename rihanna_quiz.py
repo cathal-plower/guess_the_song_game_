@@ -55,7 +55,7 @@ HARD_RIHANNA_SONGS = [
     }
 ]
 
-def run_quiz():
+def run_rihanna_quiz():
     while True:
         score = 0
         total_questions = min(5, len(HARD_RIHANNA_SONGS))
@@ -117,4 +117,4 @@ def run_quiz():
         print("\n\n")
 
 if __name__ == "__main__":
-    run_quiz()
+    run_rihanna_quiz()

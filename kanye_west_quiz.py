@@ -118,7 +118,7 @@ ALL_KANYE_SONGS = [
     }
 ]
 
-def run_quiz():
+def run_kanye_quiz():
     while True:
         score = 0
         total_questions = min(5, len(ALL_KANYE_SONGS))
@@ -185,4 +185,4 @@ def run_quiz():
         print("\n\n")  # Spacing before the next game round starts
 
 if __name__ == "__main__":
-    run_quiz()
+    run_kanye_quiz()
